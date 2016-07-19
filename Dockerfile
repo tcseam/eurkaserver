@@ -8,4 +8,4 @@ RUN mkdir  /EnterpriseAppsMaker && \
 # Copy EAM generated deployable
 COPY Comp_Server-1.0.jar /EnterpriseAppsMaker
 # Specify container startup command
-CMD java -jar Comp_Server-1.0.jar
+CMD java -jar EnterpriseAppsMaker/Comp_Server-1.0.jar
